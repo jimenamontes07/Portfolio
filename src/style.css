@@ -14,15 +14,29 @@
     font-size: 96px !important;
 
   }
-  @media (max-width:897){
+  @media (max-width:768px){
     h1{
         font-size:50px !important;
     }
     h2{
         font-size:30px !important;
     }
+
+    p,
+    h1,
+    h2,
+    h3,
+    .project-description,
+    .link-btn
+    {
+    text-align: center;
+    }
+    .margin-app-tittle,
+    .project-img{
+     margin-top: 30px !important;
+    }
+    
   }
-  
   h2 {
     font-size: 48px !important;
   }
