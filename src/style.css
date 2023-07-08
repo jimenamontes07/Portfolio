@@ -12,6 +12,15 @@
   
   h1 {
     font-size: 96px !important;
+
+  }
+  @media (max-width:897){
+    h1{
+        font-size:50px !important;
+    }
+    h2{
+        font-size:30px !important;
+    }
   }
   
   h2 {
@@ -112,4 +121,5 @@
   #contact {
     margin-top: 30px;
   }
+
   
